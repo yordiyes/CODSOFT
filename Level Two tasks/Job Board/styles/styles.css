@@ -1,0 +1,108 @@
+/* some style for the whole page content*/
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+}
+body{
+    background-color: #CCE6E4;
+}
+
+/* Nav bar styles */
+.navbar{
+    background-color: #fff;
+    width: 100%;
+    padding: 10px 15px;
+    padding-bottom: 20px;
+    position: fixed;
+    z-index: 1000;
+}
+.title, ul, p, .btncon{
+    display: inline;
+}
+.title{
+    font-size: 2.1em;
+    margin-right: 240px;
+    color: #0D4929;
+}
+ul{
+    margin: 0 90px;
+    margin-left: 100px;
+}
+a{
+    text-decoration: none;
+    color: #0D4929;
+    font-size: 1.1em;
+    font-weight: 500;
+    margin-left: 15px;
+}
+.navbtn{
+    float: right;
+    margin-right:50px;
+    margin-top: 5px;
+    width: auto;
+    background-color: #CCE6E4;
+    color: #0E4213;
+    border-radius: 10px;
+    border: none;
+    padding: 10px;
+    font-size: .98em;
+    font-weight: 500;
+    font-family: "Poppins";
+}
+.navbtn:hover{
+    cursor: pointer;
+    background-color: #08370C;
+    color: #fff;
+}
+
+/* first container styles */
+.first-container{
+    color: #08370C;
+    padding-top: 100px;
+}
+.inner{
+    margin-top: 120px;
+    margin-left: 150px;
+}
+.h2text{
+    font-size: 4.9em;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    line-height: 80px;
+}
+.ptext{
+    font-size: 1.2em;
+}
+.search-container {
+    position: relative;
+    display: flex;
+    width: 50%;
+    margin-top: 30px;
+}
+.search {
+    flex: 1;
+    height: 70px;
+    border-radius: 15px;
+    border: none;
+    font-size: 1.2em;
+    padding: 10px 20px;
+}
+.sectionbtn {
+    position: absolute;
+    right: 5px;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: #626c6b;
+    color: #fff;
+    border-radius: 10px;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1.5em;
+    font-weight: 500;
+    font-family: "Poppins";
+    cursor: pointer;
+}
+.sectionbtn:hover {
+    background-color: #08370C;
+    color: #fff;
+}
