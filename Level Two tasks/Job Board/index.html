@@ -10,23 +10,23 @@
     <link rel="shortcut icon" href="images/job.png" type="image/x-icon">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
 </head>
-<body>
+<body class="body">
     <div class="navbar">
         <nav>
             <h2 class="title">Job Board</h2>
             <ul class="nav-links">
-                <a href="#">Home</a>
-                <a href="#">Jobs</a>
+                <a href="#home">Home</a>
+                <a href="jobs.html">Jobs</a>
                 <a href="#">Categories</a>
                 <a href="#">Location</a>
-                <a href="#">Pages</a>
+                <a href="#about">about</a>
             </ul>
             <div class="btncon">
                 <button class="navbtn">Log in / Register</button>
             </div>
         </nav>
     </div>
-    <section class="first-container">
+    <section class="first-container" id="home">
         <div class="inner">
             <p class="future">Build your future with us</p>
             <h2 class="h2text">Get your dream <br>job with board job</h2>
@@ -63,11 +63,11 @@
         </div>
     </section>
 
-    <section class="third-container">
+    <section class="third-container" id="jobs">
         <div class="feature-container">
             <h2 id="feature-head">Featured Jobs</h2>
             <p>Know your worth and find the job that qualify your life</p>
-            <button class="listing-btn">View All Listing</button>
+            <button id="listing-btn">View All Listing</button>
             <div class="card-container2">
                 <div class="card2">
                     <img src="images/basketball.png" alt="" width="70px"><br>
@@ -126,7 +126,7 @@
                     <p class="questions">What is the cost to post a featured job opening on july?</p>
                     <hr class="hr1">
                     <p class="questions">why won't my payment go through?</p>
-                    <hr>
+                    <hr class="hr1">
                     <p class="questions">How do i redeem a coupon?</p>
                     <hr class="hr1">
                 </div>
@@ -163,9 +163,42 @@
         <h1 class="contact-header">Got a question?</h1>
         <p class="contact-info">We're here to help. Check out our FAQs, send us an email <br> or call us at +1 800 444 111</p>
     </section>
-    <footer class="sixth-container">
+    <footer class="sixth-container" id="about">
         <h2 class="title">Job board</h2>  
-        <hr class="hr2">      
+        <hr class="hr2">  
+        <div class="flex-container">
+            <div class="list-container">
+                <ul>
+                    <h2>Navigation</h2>
+                    <li class="list">Home</li>
+                    <li class="list">Jobs</li>
+                    <li class="list">Pricing</li>
+                    <li class="list">Contact</li>
+                    <a href="#"><i class='bx bxl-twitter'></i></a>
+                    <a href="#"><i class='bx bxl-instagram-alt' ></i></a>
+                    <a href="#"><i class='bx bxl-slack' ></i></a>
+                </ul>
+            </div>
+            <div class="list-container">
+                <ul>
+                    <h2>Categories</h2>
+                    <li class="list">Customer Services</li>
+                    <li class="list">Project Management</li>
+                    <li class="list">Design</li>
+                    <li class="list">Accounting / Finance</li>
+                </ul>
+            </div>
+            <div class="list-container">
+                <ul>
+                    <h2>Information</h2>
+                    <li class="list">Style Guide</li>
+                    <li class="list">Licensing</li>
+                    <li class="list">Changelog</li>
+                    <li class="list">Instruction</li>
+                </ul>
+            </div>
+        </div>    
     </footer>
+    <script src="script.js"></script>
 </body>
 </html>
